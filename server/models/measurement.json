@@ -1,0 +1,51 @@
+{
+  "name": "measurement",
+  "plural": "measurements",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "shoulders": {
+      "type": "number"
+    },
+    "breasts": {
+      "type": "number"
+    },
+    "under_breasts": {
+      "type": "number"
+    },
+    "waist": {
+      "type": "number"
+    },
+    "hips": {
+      "type": "number"
+    },
+    "thigh_left": {
+      "type": "number"
+    },
+    "thigh_right": {
+      "type": "number"
+    },
+    "calf_left": {
+      "type": "number"
+    },
+    "calf_right": {
+      "type": "number"
+    },
+    "arm_left": {
+      "type": "number"
+    },
+    "arm_right": {
+      "type": "number"
+    },
+    "date": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
